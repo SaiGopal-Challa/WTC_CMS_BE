@@ -9,3 +9,4 @@
 /.vs
 /WTC_CMS_BE/WTC_CMS_BE/bin/Debug/net8.0
 /WTC_CMS_BE/WTC_CMS_BE/bin
+/WTC_CMS_BE/WTC_CMS_BE/appsettings.Development.json
