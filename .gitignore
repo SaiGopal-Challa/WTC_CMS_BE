@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WTC_CMS_BE/WTC_CMS_BE/obj
+/WTC_CMS_BE/WTC_CMS_BE/WTC_CMS_BE.csproj.user
+/WTC_CMS_BE/WTC_CMS_BE/WTC_CMS_BE.http
+/WTC_CMS_BE/.vs/WTC_CMS_BE
+/.vs
