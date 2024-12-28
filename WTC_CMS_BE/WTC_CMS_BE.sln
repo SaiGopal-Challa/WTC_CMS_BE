@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTC_CMS_BE", "WTC_CMS_BE\WTC_CMS_BE.csproj", "{12222032-CEB8-4892-B66F-D9FB34CBD0C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTC_CMS_BE.API", "WTC_CMS_BE\WTC_CMS_BE.API.csproj", "{12222032-CEB8-4892-B66F-D9FB34CBD0C1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WTC_CMS_BE.Infrastructure", "WTC_CMS_BE.Infrastructure\WTC_CMS_BE.Infrastructure.csproj", "{10FFB616-9F8E-4A9C-B516-840456AE93FD}"
 EndProject
