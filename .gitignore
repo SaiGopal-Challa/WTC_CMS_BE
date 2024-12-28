@@ -17,3 +17,5 @@
 /WTC_CMS_BE/WTC_CMS_BE.Application/bin/Debug/net8.0
 /WTC_CMS_BE/WTC_CMS_BE.Domain/bin/Debug/net8.0
 /WTC_CMS_BE/WTC_CMS_BE.Infrastructure/bin/Debug/net8.0
+/WTC_CMS_BE/WTC_CMS_BE.Tests/obj
+/WTC_CMS_BE/WTC_CMS_BE.Tests/bin/Debug/net8.0
