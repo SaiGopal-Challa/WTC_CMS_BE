@@ -1,4 +1,6 @@
 
+using WTC_CMS_BE.API.Middlewares;
+
 namespace WTC_CMS_BE
 {
     public class Program
@@ -9,12 +11,18 @@ namespace WTC_CMS_BE
 
             // Add services to the container.
 
+
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddScoped<ICustomLoggingMiddleware, CustomLoggingMiddleware>();
+
             var app = builder.Build();
+
+
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -26,7 +34,6 @@ namespace WTC_CMS_BE
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
